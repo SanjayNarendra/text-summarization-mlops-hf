@@ -3,7 +3,7 @@ from src.textSummarizer.logging import logger
 from transformers import AutoTokenizer
 from datasets import load_from_disk, DatasetDict
 
-from src.textSummarizer.config.configuration import DataTransformationConfig
+from src.textSummarizer.entity.config_entity import DataTransformationConfig
 
 
 class DataTransformation:
